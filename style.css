@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.741)),
+    url(./img/images/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.section1,
+.section2,
+.recentProject {
+  width: 100%;
+}
+.firstText {
+  color: orange;
+}
+
+.headPart {
+  display: flex;
+  margin: 0 auto;
+  width: 1500px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headerText {
+  line-height: 3rem;
+}
+.firstBtn {
+  padding: 1rem;
+  background-color: orange;
+}
+
+.secondBtn {
+  padding: 1rem;
+  border: 2px solid white;
+}
+
+.headPart > .headerImg {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+.container1 {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  width: 1500px;
+  border: 1px solid black;
+  margin-top: 3rem;
+  padding: 2rem;
+  line-height: 2rem;
+}
+.container2 {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+.banner {
+  position: relative;
+  margin: 0 auto;
+}
+
+.banner > h2 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 5px 5px 10px black;
+}
+
+.banner > p {
+  color: white;
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+  text-shadow: 5px 5px 10px black;
+}
+.specialOffer {
+  width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid gray;
+  padding: 1rem;
+}
+.smallImg > img {
+  max-width: 20px;
+  border: 2px solid gray;
+  padding: 5px;
+}
+.bestService {
+  text-align: center;
+  margin: 2rem;
+  line-height: 2rem;
+}
+.service {
+  display: flex;
+}
+
+.recentProjectHeader {
+  text-align: center;
+  padding: 2rem;
+  background-color: black;
+  color: white;
+  line-height: 2.9rem;
+}
+.project {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.project img {
+  width: 100%;
+}
+.mapsection,
+.totalItem {
+  width: 100%;
+}
+.map {
+  width: 1500px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 3rem;
+  border: 2px solid gray;
+}
+
+
+.totalItem {
+  padding: 5rem 0;
+  background: url(./img/images/bg-total.jpeg);
+}
+
+.stepByHeader {
+  text-align: center;
+  padding: 2rem;
+}
+
+.total {
+  color: orange;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  text-align: center;
+}
+.stepByContainer {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 1500px;
+  text-align: center;
+  line-height: 2rem;
+  padding: 1rem;
+}
+
+.testimonials {
+  background-color: rgb(46, 45, 45);
+}
+.testimonialsHeader {
+  color: white;
+  text-align: center;
+  padding: 3rem;
+  line-height: 2rem;
+}
+.testimonialsContainer {
+  display: flex;
+  color: white;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+}
+
+.testimonialsContainer > div > p {
+  border: 2px solid white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.testimonialsContainer > div > div {
+  display: grid;
+}
+.brand {
+  background-color: rgb(22, 22, 22);
+}
+.brandItems {
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem;
+}
+.newsSection > h3,
+h1 {
+  text-align: center;
+}
+.newsItem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+}
+.footerFirstSection {
+  background-color: rgb(255, 223, 65);
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footerFirstSection > div > button {
+  padding: 1rem;
+  border: 5px solid black;
+  color: black;
+  background-color: rgb(255, 223, 65);
+  font-size: 20px;
+}
+.footterText {
+  display: grid;
+  grid-row: auto;
+  justify-content: flex-start;
+}
+.footerSecondSection {
+  background-color: black;
+  color: aliceblue;
+  height: 100px;
+}
+.footerSecondSection > p > span {
+  color: rgb(255, 153, 0);
+  text-align: center;
+  display: flex;
+}
+/* .footerItem {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.title {
+  position: relative;
+  display: inline-block;
+}
+.title::after {
+  content: "";
+  background-color: orange;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  display: block;
+  height: 5px;
+  width: 50%;
+}
